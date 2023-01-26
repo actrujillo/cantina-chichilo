@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Colvetica;
+  src: url(../src/assets/fonts/colvetica.otf);
+}
+
+@font-face {
+  font-family: Monbaiti;
+  src: url(../src/assets/fonts/monbaiti.ttf);
+}
+
+:root {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+body {
+  background: #f0edc4;
+  font-family: Colvetica;
+  margin: 0;
+  /* display: flex; */
+  min-width: 320px;
+  /* min-height: 100vh; */
+}
+
+section {
+  min-height: 90vh;
+}
+
+.img-principales {
+  border-radius: 50%;
+  filter: sepia(15%) brightness(100%) contrast(90%) saturate(85%);
+  z-index: -1;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-family: monbaiti;
+}
+
+.reservas {
+  transition: 0.5s;
+  filter: grayscale(100%);
+}
+
+.reservas:hover {
+  transition: 0.5s;
+  filter: grayscale(30%);
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "titulo": "Entradas",
+    "items": [
+      {
+        "id": 1,
+        "nombre": "Antipasto italiano",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      }
+    ]
+  },
+  {
+    "titulo": "Pastas",
+    "items": [
+      {
+        "id": 2,
+        "nombre": "Fusiles al fierrito",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 3,
+        "nombre": "Tallarines",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 4,
+        "nombre": "Sorrentinos de muzzarella y jamon",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 5,
+        "nombre": "Ñoquis",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      }
+    ]
+  },
+  {
+    "titulo": "Mariscos y pescados",
+    "items": [
+      {
+        "id": 2,
+        "nombre": "Caracoles a la bordalesa",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 3,
+        "nombre": "Merluza al ajillo",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 4,
+        "nombre": "Rabas a la calabria",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 5,
+        "nombre": "Calamarettis a la escarpetta",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/18/ea/54/7d/homemade.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 6,
+        "nombre": "Gambas al ajillo",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 7,
+        "nombre": "Ranas a la provenzal",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      }
+    ]
+  },
+  {
+    "titulo": "Carnes y pollos",
+    "items": [
+      {
+        "id": 8,
+        "nombre": "Mondongo a la italiana",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 9,
+        "nombre": "Riñones al vino blanco",
+        "img": "https://lacocinademercheborjas.com/wp-content/uploads/2022/05/RINONES.webp",
+        "cantidad": 0
+      },
+      {
+        "id": 10,
+        "nombre": "Pollo a la 'Mama Esther'",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 12,
+        "nombre": "Pulpetonne",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      }
+    ]
+  },
+  {
+    "titulo": "Postres",
+    "items": [
+      {
+        "id": 13,
+        "nombre": "Tiramisu calabres",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 14,
+        "nombre": "Postre Chicholina",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      },
+      {
+        "id": 15,
+        "nombre": "Flan",
+        "img": "https://i.ytimg.com/vi/H2qLQJvMB40/maxresdefault.jpg",
+        "cantidad": 0
+      }
+    ]
+  }
+]

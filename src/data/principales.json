@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titulo": "Fusiles al ferretto",
+    "descripcion": "El fusile al ferretto es diferente al fusile helicoidal con forma de tornillo, se enrollan sobre una aguja de hacer punto y logran un sabor único de nuestra cocina.",
+    "img": "https://i.ibb.co/5cr4NKG/126945659-1103678356755169-7848504271419379094-n.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Ranas a la provenzal",
+    "descripcion": "De más esta decir que fue el plato preferido de Diego Armando Maradona, donde la provenzal resalta esta preparación exótica en Buenos Aires.",
+    "img": "https://okdiario.com/img/2019/12/18/ancas-de-rana-a-la-provenzal-620x349.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Caracoles a la bordalesa",
+    "descripcion": "Un plato para audaces que, acompañado por una buena botella de vino, podés disfrutar en nuestra mesa.",
+    "img": "https://i.ibb.co/QbKKtP5/243517003-253870309882011-6720046872699064879-n.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Rabas a la calabria",
+    "descripcion": "Tiernas, bien preparadas sin excedente de aceite. Las rabas son una opcion sencilla, exquisita y muy sabrosa para incorporar los nutrientes del pescado.",
+    "img": "https://scontent.faep6-1.fna.fbcdn.net/v/t1.6435-9/119448350_770295080422584_946086514295871738_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHGut-P5W-CEzSv-LCLXzhf_Hn9tPh4GjP8ef20-HgaM7ECIqoEdLN39hCIAV7JRRY&_nc_ohc=omn_ELVOoDsAX8_D_A2&_nc_ht=scontent.faep6-1.fna&oh=00_AfCWKqZrMQJggaNgRtdEduZLlpVxW9XE2IYRb_9kt5wETg&oe=63F6A5D3"
+  },
+  {
+    "id": 5,
+    "titulo": "Merluza al ajillo",
+    "descripcion": "Deliciosa opcion hecho con ingredientes frescos! Podes acompañarlo con pure de papas y explotar de felicidad.",
+    "img": "https://cdn0.recetasgratis.net/es/posts/9/8/1/merluza_con_gambas_al_ajillo_68189_orig.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Gambas al ajillo",
+    "descripcion": "Otro plato directo del mar, clasico para los amantes de los mariscos, complemento perfecto para el pan que servimos en tu mesa.",
+    "img": "https://scontent.faep6-1.fna.fbcdn.net/v/t1.18169-9/16387159_10154078135866933_4684659638074497330_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeGG8FG1qcgE08bx-ut5AR_t455gnNT08WrjnmCc1PTxat5DFze60hfFvADoQ0_NIfA&_nc_ohc=l2IwSxHSXbYAX87FhUt&_nc_ht=scontent.faep6-1.fna&oh=00_AfCfeo9nz3RPA0LxRJzvByjcYyYjDesr9QmR4WN5CRYMfg&oe=63F6C3D4"
+  }
+]
