@@ -7,7 +7,7 @@ const MenuContextProvider = (props) => {
   const [principales, setPrincipales] = useState([]);
 
   useEffect(() => {
-    fetch("../../src/data/menu.json")
+    fetch("../data/menu.json")
       .then((res) => res.json())
       .then((data) => setMenu(data));
   }, []);
