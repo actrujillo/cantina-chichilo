@@ -1,8 +1,5 @@
 import historia from "../data/historia.json";
 import nosotros from "../assets/statics/nosotros.png";
-import nosotros1 from "../assets/statics/nosotros1.jpg";
-import nosotros2 from "../assets/statics/nosotros2.jpg";
-import nosotros3 from "../assets/statics/nosotros3.jpg";
 
 export default function Nosotros() {
   return (
@@ -21,21 +18,7 @@ export default function Nosotros() {
             ))}
           </div>
           <div className="px-4 pb-4">
-            {/* <img
-              src={nosotros1}
-              alt="Don Francisco sirviendo el vino"
-              className=" border-8 border-white "
-            />
-            <img
-              src={nosotros2}
-              alt="Comida grupal en Chichilo"
-              className="absolute w-32 bottom-[-50px] right-10 border-4 border-white"
-            />
-            <img
-              src={nosotros3}
-              alt="La Nonna con las bandejas"
-              className="absolute w-32 bottom-[-230px] left-10 rotate-6 border-4 border-white"
-            /> */}
+
             <img src={nosotros} alt="" />
           </div>
         </div>
