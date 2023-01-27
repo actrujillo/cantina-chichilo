@@ -4,11 +4,11 @@ import hero from "../assets/statics/hero.jpg";
 export default function Home() {
   return (
     <>
-      <section className="h-full flex flex-col">
+      <div className="h-[90vh] flex flex-col">
         <img
           src={hero}
           alt="portada cantina chichilo"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover sm:h-[400px]"
         />
         <div className="h-full flex flex-col justify-center items-center grow text-center">
           <div className="bg-red w-5/6 text-5xl py-3.5 mb-4 text-slate-50 ">
@@ -33,7 +33,7 @@ export default function Home() {
           </p>
           <span className="text-red text-xl">*1956-2020*</span>
         </div>
-      </section>
+      </div>
     </>
   );
 }

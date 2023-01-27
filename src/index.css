@@ -27,7 +27,7 @@ body {
   /* min-height: 100vh; */
 }
 
-section {
+.section {
   min-height: 90vh;
 }
 
@@ -45,6 +45,7 @@ input::placeholder {
 .reservas {
   transition: 0.5s;
   filter: grayscale(100%);
+  z-index: -1;
 }
 
 .reservas:hover {

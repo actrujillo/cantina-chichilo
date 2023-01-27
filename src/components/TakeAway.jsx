@@ -41,11 +41,13 @@ export default function TakeAway() {
   return (
     <>
       <section>
-        <div className="bg-green h-14 flex items-center text-white mt-[5.5rem]">
-          <h2 className="text-2xl mx-2">Cantina Chichilo en tu casa ❤️</h2>
+        <div className="bg-green h-14 flex items-center text-white mt-[5.5rem] sm:h-20">
+          <h2 className="text-2xl mx-2 sm:text-4xl sm:ml-4">
+            Cantina Chichilo en tu casa ❤️
+          </h2>
         </div>
         <div className="take-away">
-          <div className="rounded flex flex-col text-center m-4 p-2 border-green border-2">
+          <div className="rounded flex flex-col text-center m-4 p-2 border-green border-2 sm:text-xl">
             <span className="text-red font-bold tracking-widest">
               ¡IMPORTANTE!
             </span>
@@ -60,7 +62,7 @@ export default function TakeAway() {
             </ul>
           </div>
 
-          <form className="flex flex-col justify-center items-center">
+          <form className="flex flex-col justify-center items-center sm:text-xl">
             {/* <label htmlFor="">Nombre</label> */}
             <input
               type="text"

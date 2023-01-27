@@ -44,8 +44,6 @@ const MenuContextProvider = (props) => {
     dataPrincipales();
   }, []);
 
-  console.log(menu);
-
   return (
     <MenuContext.Provider value={{ menu, principales }}>
       {props.children}
