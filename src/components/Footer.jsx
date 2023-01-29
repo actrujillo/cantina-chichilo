@@ -15,7 +15,7 @@ export default function Footer() {
       icon: <HiOutlinePhone />,
     },
     {
-      href: "https://wa.me/+541150200152",
+      href: "https://goo.gl/maps/KZWsSXsG7FvEUz6G7",
       text: "Camarones 1904, CABA",
       icon: <HiOutlineMapPin />,
     },
@@ -31,7 +31,7 @@ export default function Footer() {
       icon: <FaInstagram />,
     },
     {
-      href: "https://goo.gl/maps/KZWsSXsG7FvEUz6G7",
+      href: "https://wa.me/+541150200152",
       icon: <FaWhatsapp />,
     },
   ];
