@@ -15,11 +15,11 @@ export default function Menu() {
         </div>
         <div className="flex flex-col items-center mt-4 ">
           {principales.map((item, id) => (
-            <div className="flex items-center p-4 h-52 sm:w-4/5 sm:h-60" key={id}>
+            <div className="flex items-center justify-center p-4 h-52 sm:w-4/5 sm:h-60 xl:w-3/5" key={id}>
               <img
                 src={item.img}
                 alt="imagen del plato principal"
-                className="img-principales w-2/5 h-36 mr-4 border-8 border-white object-cover sm:h-48"
+                className="img-principales w-2/5 h-36 mr-4 border-8 border-white object-cover sm:h-48 md:w-[190px] "
               />
               <div className="w-3/5 sm:text-xl">
                 <h4 className="bg-red text-center text-sm uppercase p-1 text-white font-monbaiti sm:text-xl sm:font-bold">

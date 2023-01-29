@@ -24,8 +24,12 @@ export default function Header() {
       <div className="shadow-md w-full fixed top-[-1px] left-0">
         <div className="md:flex items-center justify-between bg-red py-4 md:px-10 px-2">
           <div className="flex cursor-pointer ">
-            <Link to="/" >
-              <img src={logo} alt="logo cantina chichilo" className="w-56 sm:w-60" />
+            <Link to="/">
+              <img
+                src={logo}
+                alt="logo cantina chichilo"
+                className="w-56 sm:w-60"
+              />
             </Link>
           </div>
           <div

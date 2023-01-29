@@ -34,7 +34,7 @@ export default function TakeAway() {
       .map(([quantity, item]) => `${quantity} - ${item}, `)
       .join("");
     const message = `Hola, mi nombre es ${name} y quiero pedir: ${pedido}`;
-    const phoneNumber = "1159939383";
+    const phoneNumber = "1150200152";
     window.location.href = `https://wa.me/${phoneNumber}?text=${message}
     `;
   };
@@ -46,74 +46,79 @@ export default function TakeAway() {
             Cantina Chichilo en tu casa ❤️
           </h2>
         </div>
-        <div className="take-away">
-          <div className="rounded flex flex-col text-center m-4 p-2 border-green border-2 sm:text-xl">
-            <span className="text-red font-bold tracking-widest">
-              ¡IMPORTANTE!
-            </span>
-            <p>
-              Estos son los horarios de recepción de pedidos para retirar por
-              nuestro local:
-            </p>
-            <ul className="font-monbaiti mt-1">
-              <li>Jueves y viernes de 20 a 22hs</li>
-              <li>Sabados de 12 a 14hs y de 20 a 22hs</li>
-              <li>Domingos de 12 a 14hs</li>
-            </ul>
-          </div>
-
-          <form className="flex flex-col justify-center items-center sm:text-xl">
-            {/* <label htmlFor="">Nombre</label> */}
-            <input
-              type="text"
-              value={name}
-              required
-              onChange={(e) => setName(e.target.value)}
-              placeholder="Escriba su nombre y apellido"
-              className="bg-beige w-4/5 my-4 px-2 py-1 border-b-green border-b-2"
-            />
-            <h2>Escriba la cantidad deseada y presione enviar:</h2>
-            {!empty && (
-              <span className="text-red" ref={error}>
-                *Escriba su nombre y apellido por favor.
+        <div className="flex w-full justify-center">
+          <div className="md:w-4/5 flex flex-col items-center justify-center">
+            <div className="rounded flex flex-col text-center m-4 p-2 border-green border-2 sm:text-xl">
+              <span className="text-red font-bold tracking-widest">
+                ¡IMPORTANTE!
               </span>
-            )}
-            {menu.map((category, id) => (
-              <div key={id} className=" w-full flex flex-col p-4">
-                <h3 className="bg-red w-4/5 text-white font-monbaiti italic font-semibold mb-2 p-1 shadow shadow-grey">
-                  {category.titulo}
-                </h3>
-                <ul>
-                  {category.items.map((item, i) => (
-                    <li key={i} className="mb-1 flex justify-between ">
-                      <label
-                        htmlFor={item}
-                        className="w-4/5 border-b-green border-b-2 mr-2 "
-                      >
-                        {item.nombre}
-                      </label>
-                      <input
-                        type="number"
-                        min="0"
-                        id={item}
-                        value={selectedItems[item.nombre] || ""}
-                        onChange={(e) => handleSelectedItem(e, item)}
-                        placeholder="Cantidad"
-                        className="w-1/5 text-center"
-                      />
-                    </li>
-                  ))}
-                </ul>
+              <p>
+                Estos son los horarios de recepción de pedidos para retirar por
+                nuestro local:
+              </p>
+              <ul className="font-monbaiti mt-1">
+                <li>Jueves y viernes de 20 a 22hs</li>
+                <li>Sabados de 12 a 14hs y de 20 a 22hs</li>
+                <li>Domingos de 12 a 14hs</li>
+              </ul>
+            </div>
+
+            <form className="flex flex-col justify-center items-center sm:text-xl">
+              {/* <label htmlFor="">Nombre</label> */}
+              <input
+                type="text"
+                value={name}
+                required
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Escriba su nombre y apellido"
+                className="bg-beige w-4/5 my-4 px-2 py-1 border-b-green border-b-2"
+              />
+              <h2>Escriba la cantidad deseada y presione enviar:</h2>
+              {!empty && (
+                <span className="text-red" ref={error}>
+                  *Escriba su nombre y apellido por favor.
+                </span>
+              )}
+              <div className="flex flex-col xl:flex-wrap xl:flex-row">
+                {menu.map((category, id) => (
+                  <div key={id} className=" w-full flex flex-col p-4 xl:w-1/2">
+                    <h3 className="bg-red w-4/5 text-white font-monbaiti italic font-semibold mb-2 p-1 shadow shadow-grey">
+                      {category.titulo}
+                    </h3>
+                    <ul>
+                      {category.items.map((item, i) => (
+                        <li key={i} className="mb-1 flex justify-between ">
+                          <label
+                            htmlFor={item}
+                            className="w-4/5 border-b-green border-b-2 mr-2 "
+                          >
+                            {item.nombre}
+                          </label>
+                          <input
+                            type="number"
+                            min="0"
+                            id={item}
+                            value={selectedItems[item.nombre] || ""}
+                            onChange={(e) => handleSelectedItem(e, item)}
+                            placeholder="Cantidad"
+                            className="w-1/5 text-center"
+                          />
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
-            ))}
-            <button
-              type="button"
-              onClick={handleSendMessage}
-              className="bg-red hover:bg-grana hover:duration-500 text-white p-2 mb-4 rounded pointer shadow shadow-gray-400"
-            >
-              Enviar mensaje
-            </button>
-          </form>
+
+              <button
+                type="button"
+                onClick={handleSendMessage}
+                className="bg-red hover:bg-grana hover:duration-500 text-white p-2 mb-4 rounded pointer shadow shadow-gray-400"
+              >
+                Enviar mensaje
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </>
